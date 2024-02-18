@@ -5,6 +5,6 @@ function displayGreeting() {
     if (nameInput.trim() !== "") {
         greetingMessage.innerHTML = "<p>Привіт, " + nameInput + "!</p>";
     } else {
-        greetingMessage.innerHTML = "<p>Будь ласка, введіть ваше ім'я.</p>";
+        greetingMessage.innerHTML = "<p>Dведіть ваше ім'я.</p>";
     }
 }
